@@ -1,0 +1,175 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Open-sans", sans-serif;
+}
+
+/*.grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-areas: 
+	" navbar "
+	" header "
+	" main-body "
+	" footer ";
+}*/
+
+.navbar1 {
+	grid-area: navbar;
+	background-color: #1378a4;
+	height: 50px;
+	position: relative;
+	margin-top: 50px;
+	width: 100%;
+}
+
+.nav-logo {
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	left: 50%;
+	margin: -115px 0 0 -130px;
+}
+
+.item {
+	height: 391px;
+}
+
+nav ul {
+	width: 807px;
+	height: 30px;
+	list-style: none;
+	margin: 0 auto;
+}
+
+nav li {
+	float: left;
+	width: 140px;
+	margin-right: 10px;
+}
+
+nav li:nth-child(3) {
+	margin-left: 210px;
+}
+
+nav li:nth-child(4) {
+	margin-right: 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: #242424;
+	display: block;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 3px;
+	padding: 13px 0;
+	font-weight: bold;
+}
+
+nav li a:hover {
+	background: #eeeeee;
+	color: #1690c3;
+	font-weight: bold;
+}
+
+.header {
+	grid-area: header;
+}
+
+.main-content {
+	grid-area: main-body;
+}
+
+.f-section-container
+{
+	height: 450px;
+	background-color: #ffffff;
+	text-align: center;
+	padding: 0 20rem;
+	grid-area: content;
+	position: relative;
+	border-bottom:  1px solid #dedfd9;
+}
+
+.header-wrapper {
+	position: relative;
+	top: 45%;
+	transform: translateY(-50%);
+}
+
+.header-title
+{
+	font-size: 40px;
+	font-weight: lighter;
+	color: #939491;
+	line-height: 3em;
+}
+.header-par
+{
+	font-size: 17px;
+}
+
+.content-reserve-wrapper {
+	height: 700px;
+	background-color: #dfdfdf;
+	margin-bottom: 600px;
+}
+
+.white {
+	background-color: white;
+}
+
+.yellow {
+	background-color: yellow;
+}
+.blue {
+	background-color: blue;
+}
+
+.footer {
+	grid-area: footer;
+}
+
+.center {
+	text-align: center;
+}
+
+
+/* Reservation form */
+.h1-font {
+	padding: 5rem 0;
+	margin-bottom: 3rem;
+	font-size: 50px;
+}
+
+.form-wrapper {
+	margin: 0 15rem;
+	padding: 0rem 5rem;
+}
+
+.display-inline {
+	display: inline-flex;
+}
+
+.form-control:nth-child(1) {
+	width: 30%;
+}
+
+.large-margin {
+	margin-right: 10rem;
+	height: 10px;
+}
+
+.fl-right {
+	float: right;
+}
+
+.form-group {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 15px;
+	padding-bottom: 45px;
+	background: white;
+}
